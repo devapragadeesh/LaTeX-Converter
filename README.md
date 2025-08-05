@@ -7,7 +7,7 @@
 <img width="500" height="453" alt="LatexCon" src="https://github.com/user-attachments/assets/8b68886c-12e6-4a76-8d9f-3f05b8a7a193" />
 
 
-A custom extension of [LaTeX-OCR](https://github.com/lukas-blecher/LaTeX-OCR) that:
+A custom extension that:
 -Preprocesses the image before extraction for higher rate of accuracy.
 -Converts math images to LaTeX.
 -Renders LaTeX into styled PNG images.
@@ -69,6 +69,9 @@ All custom code ('extract.py', 'render_latex.py') lives inside the 'LaTeX-OCR/' 
 
 '''bash
 python LaTeX-OCR/extract.py --input assets/mathdoubt.png
+
+## Acknowledgement:
+[LaTeX-OCR](https://github.com/lukas-blecher/LaTeX-OCR)
 
 ## Contact
 
