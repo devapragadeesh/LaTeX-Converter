@@ -8,10 +8,10 @@
 
 
 A custom extension that:
--Preprocesses the image before extraction for higher rate of accuracy.
+-Preprocesses the image before extraction for a higher rate of accuracy.
 -Converts math images to LaTeX.
 -Renders LaTeX into styled PNG images.
--Adds custom scripts for rendering,automation,and formatting.
+-Adds custom scripts for rendering, automation,and formatting.
 
 
 ## Tool Objective:
@@ -71,7 +71,7 @@ All custom code ('extract.py', 'render_latex.py') lives inside the 'LaTeX-OCR/' 
 python LaTeX-OCR/extract.py --input assets/mathdoubt.png
 
 ## Acknowledgement:
-[LaTeX-OCR](https://github.com/lukas-blecher/LaTeX-OCR)
+Code Modified From: [Lukas Blecher](https://github.com/lukas-blecher/LaTeX-OCR)
 
 ## Contact
 
