@@ -1,5 +1,5 @@
 # LaTeXConverter (Extended from LaTeX-OCR)
-![License](https://img.shields.io/github/license/devapragadeesh/LaTeX-Converter?style=flat-square)
+![MIT License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)
 ![Repo Size](https://img.shields.io/github/repo-size/devapragadeesh/LaTeX-Converter?style=flat-square)
 ![Last Commit](https://img.shields.io/github/last-commit/devapragadeesh/LaTeX-Converter?style=flat-square)
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg?style=flat-square)
