@@ -4,6 +4,8 @@
 ![Last Commit](https://img.shields.io/github/last-commit/devapragadeesh/LaTeX-Converter?style=flat-square)
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg?style=flat-square)
 
+<img width="500" height="453" alt="LatexCon" src="https://github.com/user-attachments/assets/8b68886c-12e6-4a76-8d9f-3f05b8a7a193" />
+
 
 A custom extension of [LaTeX-OCR](https://github.com/lukas-blecher/LaTeX-OCR) that:
 -Preprocesses the image before extraction for higher rate of accuracy.
