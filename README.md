@@ -8,10 +8,10 @@
 
 
 A custom extension that:
--Preprocesses the image before extraction for a higher rate of accuracy.
--Converts math images to LaTeX.
--Renders LaTeX into styled PNG images.
--Adds custom scripts for rendering, automation,and formatting.
+- Preprocesses the image before extraction for a higher rate of accuracy.
+- Converts math images to LaTeX.
+- Renders LaTeX into styled PNG images.
+- Adds custom scripts for rendering, automation,and formatting.
 
 
 ## Tool Objective:
@@ -76,6 +76,5 @@ Code Modified From: [Lukas Blecher](https://github.com/lukas-blecher/LaTeX-OCR)
 ## Contact
 
 **Devapragadeesh B**   
-<<<<<<< HEAD
 🔗 [GitHub](https://github.com/devapragadeesh)  
 =======
