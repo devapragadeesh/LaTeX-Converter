@@ -59,7 +59,12 @@ Example:
 The LaTeX code extracted using the 'pix2tex' model is printed below:
 
 ```latex
-\int_{0}^{\pi} \sin(x)\,dx
+\frac{11 + x}{x^3}
+```
+Alternatively the following LaTeX can also be the input for the latex_to_image.py file if the '\f' in '\frac' is assumed as an escape sequence by the Python interpreter:
+
+```latex
+\[\frac{11+x}{x^{3}}\]
 ```
 ---
 
