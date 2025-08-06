@@ -1,4 +1,4 @@
-# LaTeXConverter (Extended from LaTeX-OCR)
+# LaTeXConverter (LaTeX-OCR)
 ![MIT License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)
 ![Repo Size](https://img.shields.io/github/repo-size/devapragadeesh/LaTeX-Converter?style=flat-square)
 ![Last Commit](https://img.shields.io/github/last-commit/devapragadeesh/LaTeX-Converter?style=flat-square)
@@ -10,7 +10,7 @@
 A custom extension that:
 - Preprocesses the image before extraction for a higher rate of accuracy.
 - Converts math images to LaTeX.
-- Renders LaTeX into styled PNG images.
+- Renders LaTeX into styled PNG images and PDF format as well.
 - Adds custom scripts for rendering, automation,and formatting.
 
 
@@ -33,7 +33,7 @@ Convert math question images into usable, editable LaTeX code and render the res
 ## Workflow Overview
 
 The following diagram outlines the full process from raw math image to rendered LaTeX output.
-<img width="300" height="800" alt="Untitled diagram _ Mermaid Chart-2025-08-05-152628" src="https://github.com/user-attachments/assets/1011ced9-5dfd-431a-81cc-b743c8c6b207" />
+<img width="400" height="800" alt="Untitled diagram _ Mermaid Chart-2025-08-05-152628" src="https://github.com/user-attachments/assets/1011ced9-5dfd-431a-81cc-b743c8c6b207" />
 
 ---
 
@@ -46,8 +46,10 @@ This example demonstrates how a math image is converted into LaTeX and then rend
 ### Input Image
 
 This is the raw image of a math question passed into the tool.
+
 Example:
-<img width="281" height="227" alt="mathdoubt" src="https://github.com/user-attachments/assets/8a36b1f8-78b0-4f60-aeec-58d1951edde5" />
+
+<img width="250" height="250" alt="mathdoubt" src="https://github.com/user-attachments/assets/8a36b1f8-78b0-4f60-aeec-58d1951edde5" />
 
 
 ---
@@ -65,6 +67,19 @@ The LaTeX code extracted using the 'pix2tex' model is printed below:
 
 All custom code ('extract.py', 'render_latex.py') lives inside the 'LaTeX-OCR/' folder for import compatibility.
 
+```bash
+LaTeXConverter/
+├── LaTeX-OCR/
+│   ├── extract.py
+│   ├── render_latex.py
+│   └── ...
+├── assets/
+│   ├── mathdoubt.png
+│   ├── rendered_latex.png
+├── README.md
+├── LICENSE
+├── requirements.txt
+```
 ---
 
 ## Usage
